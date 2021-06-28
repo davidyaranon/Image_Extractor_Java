@@ -36,9 +36,12 @@ public class FileScanner
 			else
 			{
 				String input;
-				try {
+				try 
+				{
 					scanner = new Scanner(f);
-				} catch (FileNotFoundException e) {
+				} 
+				catch (FileNotFoundException e) 
+				{
 					e.printStackTrace();
 				}
 				while(scanner.hasNextLine())
